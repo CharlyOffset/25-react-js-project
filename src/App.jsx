@@ -1,4 +1,5 @@
 import Accordian from './components/accordion'
+import ImageSlider from './components/image-slider';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 
@@ -16,6 +17,9 @@ function App() {
 
       {/* star rating component */}
       <StarRating noOfStars={10}/>
+
+      {/* images slider */}
+      <ImageSlider url={'https://picsum.photos/v2/list'} limit={4} page={1}/>
     </>
   )
 }
